@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { DM_Serif_Display, DM_Sans, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 
@@ -21,7 +22,7 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Vũ Anh Tú — Fullstack Developer',
   description:
-    'Fullstack Developer with 4+ years building scalable web apps in AI, insurance, and Web3 domains. Proficient in ReactJS, TypeScript, Node.js, and real-time systems.',
+    'Fullstack Developer with 3+ years building scalable web apps in AI, insurance, and Web3 domains. Proficient in ReactJS, TypeScript, Node.js, and real-time systems.',
   keywords: [
     'Fullstack Developer',
     'ReactJS',
@@ -33,15 +34,15 @@ export const metadata: Metadata = {
     'Vietnam Developer',
     'Web Developer Hanoi',
   ],
-  authors: [{ name: 'Vũ Anh Tú', url: 'https://vuanhtu.dev' }],
+  authors: [{ name: 'Vũ Anh Tú', url: 'https://portfolio-nine-iota-93.vercel.app/' }],
   creator: 'Vũ Anh Tú',
   openGraph: {
     type: 'website',
     locale: 'vi_VN',
-    url: 'https://vuanhtu.dev',
+    url: 'https://portfolio-nine-iota-93.vercel.app/',
     title: 'Vũ Anh Tú — Fullstack Developer',
     description:
-      'Fullstack Developer with 4+ years building scalable web apps in AI, insurance, and Web3 domains.',
+      'Fullstack Developer with 3+ years building scalable web apps in AI, insurance, and Web3 domains.',
     siteName: 'Vũ Anh Tú Portfolio',
     images: [
       {
@@ -56,7 +57,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Vũ Anh Tú — Fullstack Developer',
     description:
-      'Fullstack Developer with 4+ years building scalable web apps in AI, insurance, and Web3 domains.',
+      'Fullstack Developer with 3+ years building scalable web apps in AI, insurance, and Web3 domains.',
     images: ['/og-image.png'],
   },
   robots: {
@@ -111,6 +112,7 @@ export default function RootLayout({
         />
       </head>
       <body className="font-body bg-night-950 text-star-200 antialiased">
+        <SpeedInsights />
         {children}
       </body>
     </html>

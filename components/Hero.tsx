@@ -80,7 +80,7 @@ export default function Hero() {
           <span className="text-forest-400">AI</span>,{' '}
           <span className="text-star-300">insurance</span>, and{' '}
           <span className="text-forest-400">Web3</span> domains.
-          4+ years turning complex requirements into clean, real-time systems.
+          3+ years turning complex requirements into clean, real-time systems.
         </p>
 
         {/* CTAs */}

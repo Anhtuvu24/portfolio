@@ -37,7 +37,7 @@ export default function About() {
             {/* Quick facts */}
             <div className="mt-8 grid grid-cols-2 gap-4">
               {[
-                { label: 'Years experience', value: '4+' },
+                { label: 'Years experience', value: '3+' },
                 { label: 'Companies', value: '3' },
                 { label: 'Projects shipped', value: '10+' },
                 { label: 'Location', value: 'Hà Nội' },
