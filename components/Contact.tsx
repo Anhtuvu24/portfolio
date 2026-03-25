@@ -47,7 +47,7 @@ export default function Contact() {
       <div className="mt-24 text-center">
         <div className="divider-forest mb-8" />
         <p className="text-star-300/30 text-xs font-mono tracking-widest">
-          DESIGNED & BUILT BY VŨ ANH TÚ · 2025 · UNDER THE STARS
+          DESIGNED & BUILT BY VŨ ANH TÚ · 2026 · UNDER THE STARS
         </p>
         <div className="mt-4 text-2xl opacity-30 animate-float">✦</div>
       </div>

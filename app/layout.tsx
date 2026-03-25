@@ -23,7 +23,7 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Vũ Anh Tú — Fullstack Developer',
   description:
-    'Fullstack Developer with 3+ years building scalable web apps in AI, insurance, and Web3 domains. Proficient in ReactJS, TypeScript, Node.js, and real-time systems.',
+    'Fullstack Developer with 2.5+ years building scalable web apps in AI, insurance, and Web3 domains. Proficient in ReactJS, TypeScript, Node.js, and real-time systems.',
   keywords: [
     'Fullstack Developer',
     'ReactJS',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     url: 'https://portfolio-nine-iota-93.vercel.app/',
     title: 'Vũ Anh Tú — Fullstack Developer',
     description:
-      'Fullstack Developer with 3+ years building scalable web apps in AI, insurance, and Web3 domains.',
+      'Fullstack Developer with 2.5+ years building scalable web apps in AI, insurance, and Web3 domains.',
     siteName: 'Vũ Anh Tú Portfolio',
     images: [
       {
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Vũ Anh Tú — Fullstack Developer',
     description:
-      'Fullstack Developer with 3+ years building scalable web apps in AI, insurance, and Web3 domains.',
+      'Fullstack Developer with 2.5+ years building scalable web apps in AI, insurance, and Web3 domains.',
     images: ['/og-image.png'],
   },
   robots: {

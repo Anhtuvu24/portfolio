@@ -4,7 +4,7 @@ import { useReveal } from '../hooks/useReveal'
 const projects = [
   {
     name: 'MIRABO Chat Platform',
-    desc: 'B2B real-time communication platform connecting organizations with their customers. Supports concurrent multi-room messaging with live presence.',
+    desc: 'B2C real-time communication platform connecting organizations with their customers. Supports concurrent multi-room messaging with live presence.',
     stack: ['ReactJS', 'ExpressJS', 'SocketIO', 'MySQL', 'S3'],
     badge: 'Live',
     gradient: 'from-forest-700/20 to-forest-600/5',

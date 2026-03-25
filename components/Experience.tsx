@@ -9,7 +9,7 @@ const jobs = [
     color: 'forest',
     current: true,
     highlights: [
-      'Independently designed system architecture for a B2B real-time chat platform connecting organizations with their customers.',
+      'Independently designed system architecture for a B2C real-time chat platform connecting organizations with their customers.',
       'Built core messaging features with SocketIO + ExpressJS, supporting concurrent multi-room communication.',
       'Integrated S3/MinIO for media storage and led frontend with ReactJS + Tailwind for responsive UX.',
       'Proposed and shipped key product features based on client feedback, reducing requirements back-and-forth.',

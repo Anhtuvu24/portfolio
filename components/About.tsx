@@ -18,7 +18,7 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-star-300/70 leading-relaxed font-body">
               <p>
-                Fullstack Developer with 4 years of experience building scalable web applications.
+                Fullstack Developer with 2.5 years of experience building scalable web applications.
                 I&apos;ve shipped production systems in AI document processing, real-time chat, Web3 payments,
                 and high-traffic news platforms.
               </p>
@@ -37,7 +37,7 @@ export default function About() {
             {/* Quick facts */}
             <div className="mt-8 grid grid-cols-2 gap-4">
               {[
-                { label: 'Years experience', value: '3+' },
+                { label: 'Years experience', value: '2.5+' },
                 { label: 'Companies', value: '3' },
                 { label: 'Projects shipped', value: '10+' },
                 { label: 'Location', value: 'Hà Nội' },
