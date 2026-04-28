@@ -7,6 +7,8 @@ export default function ServiceWorkerProvider() {
     useServiceWorker();
 
     useEffect(() => {
+        console.log('[App] Version:', process.env.NEXT_PUBLIC_APP_VERSION);
+
         const url = new URL(window.location.href);
         if (url.searchParams.has('v')) {
             url.searchParams.delete('v');
