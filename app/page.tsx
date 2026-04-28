@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import {useServiceWorker} from "@/hooks/useServiceWorker";
 import StarField from '../components/StarField'
 import Nav from '../components/Nav'
 import Hero from '../components/Hero'
@@ -8,6 +10,16 @@ import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 
 export default function Home() {
+    useServiceWorker();
+
+    useEffect(() => {
+        const url = new URL(window.location.href);
+        if (url.searchParams.has('v')) {
+            url.searchParams.delete('v');
+            window.history.replaceState({}, '', url.toString());
+        }
+    }, []);
+
   return (
     <main className="noise relative min-h-screen">
       <StarField />
